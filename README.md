@@ -1,4 +1,14 @@
 # SMART COMPLAINT DSA TRACKER (Full Algorithmic Engine)
+TEAM MEMBERS -
+SRIRAM - 2520030218
+CHANDRIKA - 2520030047
+VEDADITYA - 2520030481
+
+ABSTRACT
+
+Efficient complaint registration, triage, and resolution are vital to modern institutional and enterprise operations; however, existing enterprise systems often rely on heavy external frameworks, proprietary databases, and black-box library abstractions. This project presents Smart Complaint Tracker, a high-performance, fault-tolerant enterprise complaint management system engineered entirely in Pure Java 21 LTS with zero external libraries and 100% handcrafted Data Structures and Algorithms (DSA). Eliminating standard library collections (java.util) and traditional SQL/NoSQL databases, the system implements ground-up data structures including custom array lists, linked lists, stacks, queues, binary min-heaps, separate-chaining hash tables, prefix tries, adjacency-list graphs, and disjoint set union (DSU).
+
+The core architecture integrates an algorithmic engine addressing real-world operational bottlenecks: dynamic text querying powered by Knuth-Morris-Pratt (KMP), Z-Algorithm, Rabin-Karp, and Aho-Corasick; live autocomplete and typo-tolerant search via Wagner-Fischer Levenshtein dynamic programming; automated duplicate detection leveraging a 3-stage weighted metric coupled with DSU clustering and sequence alignment (Needleman-Wunsch & Smith-Waterman); and recurring issue mining using Suffix Arrays with Kasai’s LCP algorithm. Workload and field dispatch challenges are resolved using Dinic’s Blocking Flow algorithm for staff capacity distribution alongside Metric TSP 2-approximation and Bitmask Dynamic Programming (Held-Karp) for technician visit scheduling. Data persistence is achieved through a flat-file engine secured by custom record codecs and Write-Ahead Logging (WAL) for atomic, crash-resilient transactions. Delivered through an asynchronous Java Swing dark-themed dashboard, the system demonstrates how foundational data structures and advanced algorithms achieve enterprise-grade efficiency, analytical power, and architectural transparency.
 ### Clean, Compact & Feature-Complete Java Data Structures & Algorithms Project
 
 ![Java](https://img.shields.io/badge/Java-21-orange.svg)
